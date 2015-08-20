@@ -2,7 +2,7 @@
 
 Notes on installing Python 3, virtualenv and virtualenvwrapper on OS X Yosemite.
 
-Start by installing XCode from the Apple App store. The latest version (6.4) seems to include command line tools (these used to have to be installed seperately).
+Start by installing XCode from the Apple App store. The latest version (6.4) seems to include command line tools (these used to have to be installed separately).
 
 Create a ~/.bash_profile file to set the architecture type:
 
@@ -40,7 +40,7 @@ Create a ~/.bashrc file to set parameters for virtualenvwrapper:
 	export PROJECT_HOME=$HOME/Projects
 	source /usr/local/bin/virtualenvwrapper.sh
 
-By setting PIP_REQUIRE_VIRTUALENV=true it prevents pip from running outside of a virtualenv - this might not suit you if you already have work using the systemwide python environment, but is a way to 'force' using virtualenv.
+By setting PIP_REQUIRE_VIRTUALENV=true it prevents pip from running outside of a virtualenv - this might not suit you if you already have work using the system wide python environment, but is a way to 'force' using virtualenv.
 
 Make your first virtualenv:
 
