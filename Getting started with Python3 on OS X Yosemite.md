@@ -6,9 +6,9 @@ Start by installing XCode from the Apple App store. The latest version (6.4) see
 
 Create a ~/.bash_profile file to set the architecture type:
 
-   # Set architecture flags
-   export ARCHFLAGS="-arch x86_64"
-   test -f ~/.bashrc && source ~/.bashrc
+    # Set architecture flags
+    export ARCHFLAGS="-arch x86_64"
+    test -f ~/.bashrc && source ~/.bashrc
 
 On OSX one way to install python3 is to install [Homebrew](http://brew.sh/) and use
 
